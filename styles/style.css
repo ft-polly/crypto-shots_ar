@@ -1,0 +1,43 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.fullScreen {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#logo {
+  position: absolute;
+  left: 0;
+  width: 140px;
+  display: none;
+}
+
+#mint-num-btn {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  color: #0066ff;
+  font-weight: bold;
+  z-index: 1000;
+  padding: 20px;
+  display: none;
+}
+
+#label {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0,0,0,0.2);
+  color: yellowgreen;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px;
+  display: none;
+}
